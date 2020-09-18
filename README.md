@@ -8,21 +8,21 @@ Backend
 
 Clone o repositorio para sua máquina com
 
-'''
+```
     git clone https://github.com/emanueldsc/-tindev-server.git
-'''
+```
 
 No terminal navegue até a pasta do projeto e execute:
 
-'''
+```
     yarn dev
-'''
+```
 
 ou 
 
-'''
+```
     npm run dev
-'''
+```
 
 Apos subir o servidor utilise um cliente http para testar a api.
 Recomendo o Insomnia
