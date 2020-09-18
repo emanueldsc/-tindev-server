@@ -25,7 +25,7 @@ ou
 ```
 
 Apos subir o servidor utilise um cliente http para testar a api, **recomendo o Insomnia** 
-[Download Insomnia](https://insomnia.rest/)
+([Download Insomnia](https://insomnia.rest/))
 
 
 **Obs**
