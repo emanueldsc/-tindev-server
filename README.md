@@ -28,5 +28,5 @@ Apos subir o servidor utilise um cliente http para testar a api, **recomendo o I
 ([Download Insomnia](https://insomnia.rest/))
 
 
-**Obs**
+**Obs:**
 > Ná pasta rais do projeto possui um arquivo **Insomnia_api_test.json** utilise esse arquivo para importar os teste da api para o Insomnia
