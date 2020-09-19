@@ -1,5 +1,5 @@
 {
-  "name": "@tindev/server",
+  "name": "tindev-server",
   "version": "1.0.0",
   "description": "backend tindev app",
   "main": "server.js",

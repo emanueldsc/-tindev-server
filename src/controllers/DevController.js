@@ -31,8 +31,6 @@ module.exports = {
 
         const { name, bio, avatar_url: avatar } = response.data;
 
-        console.log(Dev);
-
         const dev = await Dev.create({
             name,
             user: username,
@@ -41,5 +39,10 @@ module.exports = {
         });
 
         return res.status(200).json(dev);
+    },
+
+    async clear(req, res) {
+        const response = await Dev.updateMany({}, { $set: { likes: [], dislikes: [] } });
+        return res.status(200).json(response.data);
     }
 };
